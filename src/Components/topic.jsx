@@ -81,7 +81,7 @@ function Topic() {
                                 <div className="row row-cols-1 row-cols-mb-3 g-3">
                                 {/* <!---searchbar--> */}
                                 <form className="d-flex">
-                                    <input className="form-control me-2" id="myInput" onChange={mysearch} type="search" placeholder="Search Course" aria-label="Search"/>
+                                    <input className="form-control me-2" id="myInput" onChange={mysearch} type="search" placeholder="Search Topic" aria-label="Search"/>
                                     {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
                                 </form>
                                 {/* <!---searchbar end--> */}
