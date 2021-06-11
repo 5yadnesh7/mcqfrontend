@@ -1,0 +1,65 @@
+body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.videopopup {
+    text-decoration: none;
+    color: #111;
+}
+
+.videopopup:hover {
+    color: purple;
+}
+
+.videopopup img {
+    margin: 2px 16px;
+    align-items: center;
+}
+
+.videopopup h4 {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    font-weight: 700;
+    font-size: 14;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    margin: 0 15px;
+}
+
+.footer-Secondary {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14;
+}
+#outmdb{
+    width: 98%;
+    margin-left: 1%;
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 990px){
+    #outmdb{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    #mdbtab{
+        max-width: 100%;
+    }
+}
